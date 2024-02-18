@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full porject</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Oswald:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    
+    <div class="page-container">
+
+        <div class="nav">
+            <nav>
+                <div class="logo">
+                    <img src="data:image/png;base64,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 alt="logo">
+                    <div class="title">
+                       Osmare Marketing Solution
+                     </div>
+               
+                </div>
+
+                <ul>
+                    <li class="active">
+                    <a href="/index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="/C:\Users\Mohammed Asik\web Development\css\Module 4\about.html">About</a>
+                        </li>
+
+                        <li>
+                            <a href="/Users/Mohammed Asik/web Development/css/Module 4/projects.html">Projects</a>
+                            </li>
+
+                            <li>
+                                <a href="/contact.html">Contacts</a>
+                                </li>
+
+                                <li>
+                                    <a href="/pro.html">pro</a>
+                                    </li>
+                </ul>
+                
+            </nav>
+        </div>
+
+
+        <div class="banner">
+            <div class="heading">
+                <b> Welcome to Osmare Marketing Solution</b>
+                <br>
+                <small>This is  where you learn technology</small>
+            </div>
+        </div>
+       <div class="mainText">
+        Lorem ipsum dolor sit amet consectetur
+         adipisicing elit. Quaerat totam nostrum
+          reprehenderit quod eum, quis mollitia esse
+           temporibus saepe vero vel suscipi
+        t laborum ipsum perferendis commodi
+        veritatis nisi. Nemo, excepturi.
+       </div>
+
+       <div class="subtext">
+
+        <div class="red">
+                     <h3>HTML</h3>
+                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Enim iste possimus voluptate modi repellat, 
+                         praesentium totam cum unde dolorem officia distinctio vero. 
+                        Atque error veritatis facere consectetur, ut eius repellendus.</p>
+        </div>
+
+        <div class="yello">
+            <h3>CSS</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Enim iste possimus voluptate modi repellat, 
+                praesentium totam cum unde dolorem officia distinctio vero. 
+               Atque error veritatis facere consectetur, ut eius repellendus.</p>
+</div>
+
+
+<div class="green">
+    <h3>Web Development</h3>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Enim iste possimus voluptate modi repellat, 
+        praesentium totam cum unde dolorem officia distinctio vero. 
+       Atque error veritatis facere consectetur, ut eius repellendus.</p>
+</div>
+
+       </div>
+<br>
+<h3 class="title">Projects</h3>
+<div class="projects">
+
+    <div class="project">
+        <img src="image/png-clipart-drawing-cartoon-fish-cartoon-fish-animals-orange.png" alt="">
+        <h4>Project #1</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam provident reiciendis obcaecati dolorem nam cul
+            pa nobis tenetur, odio est voluptas perspiciatis, eveniet laborum cumque et delectus dicta. Maxime, quidem eaque?</p>
+              <button>View Projects</button>
+        </div>
+
+    <div class="project">
+        <img src="https://png.pngtree.com/png-vector/20201011/ourmid/pngtree-blue-fish-cartoon-clipart-png-image_2363567.jpg" alt="">
+        <h4>Project #2</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam provident reiciendis obcaecati dolorem nam cul
+            pa nobis tenetur, odio est voluptas perspiciatis, eveniet laborum cumque et delectus dicta. Maxime, quidem eaque?</p>
+            <button>View Projects</button>
+        </div>
+
+
+    <div class="project">
+           <img src="https://png.pngtree.com/element_pic/17/01/05/ff65069c65023157e849aee4c6953b93.jpg" alt="">
+              <h4>Project #3</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam provident reiciendis obcaecati dolorem nam cul
+            pa nobis tenetur, odio est voluptas perspiciatis, eveniet laborum cumque et delectus dicta. Maxime, quidem eaque?</p>
+            <button>View Projects</button>
+        </div>
+
+
+</div>
+
+<blockquote class="quote">Lorem ipsum dolor sit amet consectetur adipisicin</blockquote>
+
+
+        <div class="footer">
+            copyright &copy; Osmare Marketing Solution
+        </div>
+    </div>
+    
+</body>
+</html>
